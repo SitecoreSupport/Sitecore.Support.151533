@@ -69,9 +69,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.151533.config" />
-    <Content Include="sitecore\shell\Override\CreateFormWizard.xml" />
-    <Content Include="sitecore\shell\Override\InsertFormWizard.xml" />
+    <Content Include="sitecore\shell\Override\CreateFormWizard.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\Override\InsertFormWizard.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
